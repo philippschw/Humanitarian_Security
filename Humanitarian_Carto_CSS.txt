@@ -1,0 +1,120 @@
+UPDATE worldborders SET points_count = (SELECT count(*)
+FROM securityincidents WHERE ST_Intersects(securityincidents.the_geom, worldborders.the_geom)) 
+
+
+/** choropleth visualization */
+
+#worldborders{
+  polygon-fill: #1a9850;
+  polygon-opacity: 0.8;
+  line-color: #FFF;
+  line-width: 0.5;
+  line-opacity: 1;
+}
+
+#worldborders::labels 
+[points_count>=1]
+{
+  text-name: [points_count];
+  text-face-name: 'DejaVu Sans Book';
+  text-size: 10;
+  text-label-position-tolerance: 10;
+  text-fill: #000;
+  text-halo-fill: #FFF;
+  text-halo-radius: 1;
+  text-dy: -10;
+  text-allow-overlap: true;
+  text-placement: point;
+  text-placement-type: simple;
+}
+
+#worldborders [ points_count <= 485] {
+   polygon-fill: #d73027;
+}
+#worldborders [ points_count <= 100] {
+   polygon-fill: #f79272;
+}
+#worldborders [ points_count <= 42] {
+   polygon-fill: #fed6b0;
+}
+#worldborders [ points_count <= 25] {
+   polygon-fill: #fff2cc;
+}
+#worldborders [ points_count <= 17] {
+   polygon-fill: #d2ecb4;
+}
+#worldborders [ points_count <= 8] {
+   polygon-fill: #8cce8a;
+}
+#worldborders [ points_count <= 4] {
+   polygon-fill: #1a9850;
+}
+
+
+
+
+
+
+
+/** torque_cat visualization */
+
+Map {
+-torque-frame-count:256;
+-torque-animation-duration:30;
+-torque-time-attribute:"datetime";
+-torque-aggregation-function:"round(avg(total_affected))";
+-torque-resolution:16;
+-torque-data-aggregation:linear;
+}
+
+#security_incidents2016_10_03_datetime_2{
+  comp-op: source-over;
+  marker-fill-opacity: 0.9;
+  marker-line-color: #FFF;
+  marker-line-width: 0;
+  marker-line-opacity: 1;
+  marker-type: ellipse;
+  marker-width: 8.5;
+  marker-fill: #0F3B82;
+}
+#security_incidents2016_10_03_datetime_2[frame-offset=1] {
+ marker-width:10.5;
+ marker-fill-opacity:0.45; 
+}
+#security_incidents2016_10_03_datetime_2[frame-offset=2] {
+ marker-width:12.5;
+ marker-fill-opacity:0.225; 
+}
+#security_incidents2016_10_03_datetime_2[value=1] {
+   marker-fill: #A6CEE3;
+}
+#security_incidents2016_10_03_datetime_2[value=2] {
+   marker-fill: #1F78B4;
+}
+#security_incidents2016_10_03_datetime_2[value=3] {
+   marker-fill: #B2DF8A;
+}
+#security_incidents2016_10_03_datetime_2[value=4] {
+   marker-fill: #33A02C;
+}
+#security_incidents2016_10_03_datetime_2[value=5] {
+   marker-fill: #FB9A99;
+}
+#security_incidents2016_10_03_datetime_2[value=6] {
+   marker-fill: #E31A1C;
+}
+#security_incidents2016_10_03_datetime_2[value=7] {
+   marker-fill: #FDBF6F;
+}
+#security_incidents2016_10_03_datetime_2[value=8] {
+   marker-fill: #FF7F00;
+}
+#security_incidents2016_10_03_datetime_2[value=9] {
+   marker-fill: #CAB2D6;
+}
+#security_incidents2016_10_03_datetime_2[value=10] {
+   marker-fill: #6A3D9A;
+}
+#security_incidents2016_10_03_datetime_2 {
+   marker-fill: #DDDDDD;
+}
