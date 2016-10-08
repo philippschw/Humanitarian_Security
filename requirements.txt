@@ -1,3 +1,4 @@
 datetime
 seaborn
 pprintpp
+geopandas == 0.1.0.dev-
