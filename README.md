@@ -2,6 +2,8 @@
 
 ## Summary 
 This repository provides a comprehensive analysis of major violent incidents directed against humanitarian aid workers. The analysis is based on data colelcted by the Aid Worker Security Database (AWSD), available at https://aidworkersecurity.org/. The dataset contains more than 2000 incidents that have been reported since 1997 until today. This quantitative research aims to shed light on the crucial issue of the security of civilian aid workers in fragile contexts. Because high insecurity for aid workers may significantly reduce access to a needy population and limit both the amount and quality of aid provided. 
+assdad
+![](results/Affected_nationals_vs_internations.png)
 
 ## Data source
 For each incident, the database records the:
