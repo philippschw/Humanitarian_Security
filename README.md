@@ -12,8 +12,8 @@ assdad
 ![](results/incidents_worldmap.png)
 
 
-* Over the last fifteen years the number of serious incidents has continously increased and is now more than 6 times higher than 10 years ago. 
-* The increase of attacks has primarily affected national humanitarian aid workers!
+* Over the last fifteen years the number of serious incidents has continously increased and is now more than 4 times higher than 15 years ago. 
+* The increase of attacks does primarily affected national humanitarian aid workers!
 ![](results/Affected_nationals_vs_internations.png)
 
 * The types of violence directed at aid workers is dependent on the regional contexts. Looking into data from 2015 shows that in Afghanistan kidnapping is the prevalent mean of attack. However, in Sudan and Somalia, in contrast, shootings and (sexual) assualt are the most signifiant type of violence. Incidents caused by explosives and heavy weapons are with more than 50% only the majority of events in Syria.
