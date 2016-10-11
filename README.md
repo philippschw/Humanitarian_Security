@@ -6,9 +6,10 @@ assdad
 
 ***Key Outcome:*** 
 * Risks to humanitarian aid workers are power law distributed. A small number of insecure locations (Afghanistan, Sudan, Somalia, Syria and Pakistan) account for most of the incidents.
+
 ![](results/choropleth_worldmap.png)
 
-![](results/incidents_worldmap.png)
+![](results/incidents_map.png)
 
 
 *Over the last fifteen years the number of serious incidents has continously increased and is now more than 6 times higher than 10 years ago. 
