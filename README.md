@@ -9,7 +9,7 @@ assdad
 
 ![](results/choropleth_worldmap.png)
 
-![](results/incidents_map.png)
+![](results/incidents_worldmap.png)
 
 
 *Over the last fifteen years the number of serious incidents has continously increased and is now more than 6 times higher than 10 years ago. 
