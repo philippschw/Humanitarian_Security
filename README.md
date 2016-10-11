@@ -5,9 +5,15 @@ This repository provides a comprehensive analysis of major violent incidents dir
 assdad
 
 ***Key Outcome:*** 
+* Risks to humanitarian aid workers are power law distributed. A small number of insecure locations (Afghanistan, Sudan, Somalia, Syria and Pakistan) account for most of the incidents.
+![](results/choropleth_worldmap.png)
+
+![](results/incidents_worldmap.png)
+
+
+
 *Over the last fifteen years the number of serious incidents has continously increased and is now more than 6 times higher than 10 years ago. 
 *The increase of attacks has primarily affected national humanitarian aid workers!*
-
 ![](results/Affected_nationals_vs_internations.png)
 
 ## Data source
