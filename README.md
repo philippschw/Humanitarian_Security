@@ -12,9 +12,12 @@ assdad
 ![](results/incidents_worldmap.png)
 
 
-*Over the last fifteen years the number of serious incidents has continously increased and is now more than 6 times higher than 10 years ago. 
-*The increase of attacks has primarily affected national humanitarian aid workers!*
+* Over the last fifteen years the number of serious incidents has continously increased and is now more than 6 times higher than 10 years ago. 
+* The increase of attacks has primarily affected national humanitarian aid workers!
 ![](results/Affected_nationals_vs_internations.png)
+
+* The increase of attacks has primarily affected national humanitarian aid workers!
+![](results/Barh_top5nations_attacktype.png)
 
 ## Data source
 For each incident, the database records the:
