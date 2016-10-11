@@ -16,7 +16,7 @@ assdad
 * The increase of attacks has primarily affected national humanitarian aid workers!
 ![](results/Affected_nationals_vs_internations.png)
 
-* The increase of attacks has primarily affected national humanitarian aid workers!
+* The types of violence directed at aid workers is dependent on the regional contexts. Looking into data from 2015 shows that in Afghanistan kidnapping is the prevalent mean of attack. However, in Sudan and Somalia, in contrast, shootings and (sexual) assualt are the most signifiant type of violence. Incidents caused by explosives and heavy weapons are with more than 50% only the majority of events in Syria.
 ![](results/Barh_top5nations_attacktype.png)
 
 ## Data source
