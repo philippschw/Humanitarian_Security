@@ -33,6 +33,10 @@ For each incident, the database records the:
 * Context of attack (ambush, armed incursion, etc.)
 * Summary of incident (public details)
 
+## Full comprehensive analysis
+Link to web display of [iPython Notebook](http://nbviewer.jupyter.org/github/philippschw/Humanitarian_Security/blob/master/Humanitarian%20Security%20Incidents_aidworkersecurity.org.ipynb
+)
+
 ## Future steps
 The next steps of this analysis will be to create a spatial regression model to understand the relationship between local context, incidents and consequences on aid provision (such as suspensions of programmes and withdrawals). 
 
