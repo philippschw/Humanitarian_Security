@@ -4,5 +4,4 @@ pprintpp
 geopandas
 elasticsearch
 xlrd
-zipfile
 
